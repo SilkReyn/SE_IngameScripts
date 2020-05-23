@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Sandbox.ModAPI.Ingame;              // Base class and access point
+using Sandbox.ModAPI.Interfaces;          // Block properties
+using VRageMath;                          // SE physics math
+using SpaceEngineers.Game.ModAPI.Ingame;  // More blocktypes
+using VRage.Game.ModAPI.Ingame;           // Return types
+
+namespace templateScript
+{
+/* Public Base Properties:
+ * IMyGridTerminalSystem GridTerminalSystem
+ * IMyProgrammableBlock Me
+ * obsolete TimeSpan ElapsedTime
+ * IMyGridProgramRuntimeInfo Runtime
+ * string Storage
+ * Action<string> Echo
+ * optional Save
+ * mandatory Main( string )
+ */
+
+public class Program : MyGridProgram
+{
+#region PB-CODE
+
+
+#endregion
+}// class
+}// namespace
